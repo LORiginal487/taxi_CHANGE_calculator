@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Background color of the LinearLayout -->
+    <item android:drawable="@android:color/white" />
+
+    <!-- Border -->
+    <item>
+        <shape>
+            <solid android:color="@color/mid" />
+            <stroke
+                android:width="2dp"
+                android:color="@color/toDark" /> <!-- Border color (red in this example) -->
+        </shape>
+    </item>
+</layer-list>
