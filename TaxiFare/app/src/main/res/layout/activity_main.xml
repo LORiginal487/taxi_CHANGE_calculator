@@ -22,6 +22,7 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_marginBottom="3dp"
         android:gravity="center"
         android:orientation="horizontal">
 
@@ -55,15 +56,18 @@
                 android:background="@color/mid"
                 android:ems="10"
 
+                android:gravity="center_horizontal|center_vertical"
+                android:hint="0.0"
                 android:inputType="numberDecimal"
-                android:text="0.0"
-                android:textColor="@color/light" />
+
+                android:textColorHint="@color/light" />
         </LinearLayout>
     </LinearLayout>
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_marginBottom="3dp"
         android:gravity="center"
         android:orientation="horizontal">
 
@@ -84,7 +88,7 @@
 
         <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="match_parent"
             android:gravity="right"
             android:orientation="horizontal">
 
@@ -94,9 +98,10 @@
                 android:layout_height="match_parent"
                 android:background="@color/mid"
                 android:ems="10"
+                android:gravity="center_horizontal|center_vertical"
                 android:inputType="number"
-                android:text="0"
-                android:textColor="@color/light" />
+                android:hint="0"
+                android:textColorHint="@color/light" />
         </LinearLayout>
     </LinearLayout>
 
@@ -115,10 +120,9 @@
             android:textSize="24sp" />
 
         <TextView
-            android:id="@+id/textView8"
+            android:id="@+id/driverTotalOut"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-
             android:textSize="20sp"
             android:text="0.0"
             android:textColor="@color/light"/>
@@ -151,9 +155,8 @@
                     android:id="@+id/imageView1"
                     android:layout_width="60dp"
                     android:layout_height="match_parent"
-                    android:layout_weight="1"
-                    android:src="@tools:sample/avatars"
-                    app:srcCompat="@drawable/greycr_removebg_preview" />
+                    android:importantForAccessibility="no"
+                    tools:srcCompat="@drawable/greycr_removebg_preview" />
 
                 <LinearLayout
                     android:layout_width="wrap_content"
@@ -244,9 +247,8 @@
                     android:id="@+id/imageView2"
                     android:layout_width="60dp"
                     android:layout_height="match_parent"
-                    android:layout_weight="1"
-                    android:src="@tools:sample/avatars"
-                    app:srcCompat="@drawable/greycr_removebg_preview" />
+                    android:importantForAccessibility="yes"
+                    tools:srcCompat="@drawable/greycr_removebg_preview" />
 
                 <LinearLayout
                     android:layout_width="wrap_content"
@@ -336,9 +338,8 @@
                     android:id="@+id/imageView3"
                     android:layout_width="60dp"
                     android:layout_height="match_parent"
-                    android:layout_weight="1"
-                    android:src="@tools:sample/avatars"
-                    app:srcCompat="@drawable/greycr_removebg_preview" />
+                    android:importantForAccessibility="no"
+                    tools:srcCompat="@drawable/greycr_removebg_preview" />
 
                 <LinearLayout
                     android:layout_width="wrap_content"
@@ -428,9 +429,8 @@
                     android:id="@+id/imageView4"
                     android:layout_width="60dp"
                     android:layout_height="match_parent"
-                    android:layout_weight="1"
-                    android:src="@tools:sample/avatars"
-                    app:srcCompat="@drawable/greycr_removebg_preview" />
+                    android:importantForAccessibility="no"
+                    tools:srcCompat="@drawable/greycr_removebg_preview" />
 
                 <LinearLayout
                     android:layout_width="wrap_content"
@@ -520,9 +520,8 @@
                     android:id="@+id/imageView5"
                     android:layout_width="60dp"
                     android:layout_height="match_parent"
-                    android:layout_weight="1"
-                    android:src="@tools:sample/avatars"
-                    app:srcCompat="@drawable/greycr_removebg_preview" />
+                    android:importantForAccessibility="no"
+                    tools:srcCompat="@drawable/greycr_removebg_preview" />
 
                 <LinearLayout
                     android:layout_width="wrap_content"
@@ -612,9 +611,8 @@
                     android:id="@+id/imageView"
                     android:layout_width="60dp"
                     android:layout_height="match_parent"
-                    android:layout_weight="1"
-                    android:src="@tools:sample/avatars"
-                    app:srcCompat="@drawable/greycr_removebg_preview" />
+                    android:importantForAccessibility="no"
+                    tools:srcCompat="@drawable/greycr_removebg_preview" />
 
                 <LinearLayout
                     android:layout_width="wrap_content"
