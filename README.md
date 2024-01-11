@@ -5,10 +5,9 @@
 
 
 ## SCREENSHOTS
-<img src="SIGN IN.jpg" align="right" />
-<img src="SIGN UP.jpg" align="right" />
-<img src="HOME.jpg" align="right" />
-<img src="USER PROFILE.jpg" align="right" />
-<img src="SUGGESTIONS.jpg" align="right" />
-<img src="FRIENDS PROFILE.jpg" align="right" />
-<img src="MENU.jpg" align="right" />
+<img src="1.jpg" align="right" />
+<img src="2.jpg" align="right" />
+<img src="3.jpg" align="right" />
+<img src="4.jpg" align="right" />
+<img src="5.jpg" align="right" />
+<img src="6.jpg" align="right" />
